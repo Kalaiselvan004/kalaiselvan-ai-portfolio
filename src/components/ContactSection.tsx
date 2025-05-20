@@ -53,8 +53,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Phone</div>
-                    <a href="tel:+1234567890" className="font-medium hover:text-primary">
-                      +1 (234) 567-890
+                    <a href="tel:+918072256258" className="font-medium hover:text-primary">
+                      +91 8072256258
                     </a>
                   </div>
                 </CardContent>
