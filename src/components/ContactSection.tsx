@@ -39,8 +39,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <a href="mailto:example@email.com" className="font-medium hover:text-primary">
-                      example@email.com
+                    <a href="mailto:kalaiselvan.s.ece.2022@snsce.ac.in" className="font-medium hover:text-primary">
+                      kalaiselvan.s.ece.2022@snsce.ac.in
                     </a>
                   </div>
                 </CardContent>
