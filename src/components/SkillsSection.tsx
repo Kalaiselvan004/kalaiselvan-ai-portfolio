@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Code, Computer, Github, Database, FileText, Tool, Wrench, Compass } from "lucide-react";
+import { Code, Computer, Github, Database, FileText, Wrench, Compass } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function SkillsSection() {
