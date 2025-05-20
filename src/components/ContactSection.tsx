@@ -34,12 +34,12 @@ export default function ContactSection() {
             <div className="space-y-6">
               <Card>
                 <CardContent className="p-6 flex items-center">
-                  <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <Mail className="h-6 w-6 text-primary" />
+                  <div className="bg-red-500 p-3 rounded-full mr-4">
+                    <Mail className="h-6 w-6 text-white" />
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground">Email</div>
-                    <a href="mailto:kalaiselvan.s.ece.2022@snsce.ac.in" className="font-medium hover:text-primary">
+                    <a href="mailto:kalaiselvan.s.ece.2022@snsce.ac.in" className="font-medium hover:text-red-500 transition-colors">
                       kalaiselvan.s.ece.2022@snsce.ac.in
                     </a>
                   </div>
@@ -72,7 +72,7 @@ export default function ContactSection() {
                     <Github className="h-6 w-6" />
                   </a>
                   <a 
-                    href="https://linkedin.com/" 
+                    href="https://www.linkedin.com/in/kalaiselvan-s-6a041024b/" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-secondary p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
