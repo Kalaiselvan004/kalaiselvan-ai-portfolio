@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Code, Computer, Github, Database, FileText } from "lucide-react";
+import { Code, Computer, Github, Database, FileText, Tool, Wrench, Compass } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function SkillsSection() {
@@ -88,25 +88,25 @@ export default function SkillsSection() {
 
             <Card className="mt-8">
               <CardHeader>
-                <CardTitle>Other Technical Skills</CardTitle>
+                <CardTitle>General Technical Skills</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex items-center">
                     <div className="h-2 w-2 rounded-full bg-theme-blue mr-3"></div>
-                    <span>Embedded Systems</span>
+                    <span>PCB Design & Circuit Layout</span>
                   </li>
                   <li className="flex items-center">
                     <div className="h-2 w-2 rounded-full bg-theme-blue mr-3"></div>
-                    <span>Electronic Circuit Design</span>
+                    <span>Electronic Component Selection</span>
                   </li>
                   <li className="flex items-center">
                     <div className="h-2 w-2 rounded-full bg-theme-blue mr-3"></div>
-                    <span>AI Integration</span>
+                    <span>Soldering & Assembly</span>
                   </li>
                   <li className="flex items-center">
                     <div className="h-2 w-2 rounded-full bg-theme-blue mr-3"></div>
-                    <span>Prototyping & Testing</span>
+                    <span>Hardware Testing & Troubleshooting</span>
                   </li>
                 </ul>
               </CardContent>
