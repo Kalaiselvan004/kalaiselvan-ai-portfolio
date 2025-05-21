@@ -64,7 +64,7 @@ export default function ContactSection() {
                 <h4 className="text-lg font-medium">Social Profiles</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com/" 
+                    href="https://github.com/Kalaiselvan004" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-secondary p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
@@ -72,7 +72,7 @@ export default function ContactSection() {
                     <Github className="h-6 w-6" />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/kalaiselvan-s-6a041024b/" 
+                    href="https://www.linkedin.com/in/kalaiselvan-s-sns" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-secondary p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
