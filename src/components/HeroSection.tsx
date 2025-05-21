@@ -20,15 +20,6 @@ export default function HeroSection() {
             <p className="text-lg md:text-xl mb-6 text-muted-foreground">
               Creating innovative embedded solutions at the intersection of hardware and software.
             </p>
-            <div className="flex flex-col space-y-4 mb-6">
-              <h3 className="text-lg font-medium">Curriculum Objectives</h3>
-              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                <li>Advance expertise in microcontroller programming and embedded system design</li>
-                <li>Develop professional competency in IoT device architecture and connectivity</li>
-                <li>Master signal processing techniques and their applications in electronics</li>
-                <li>Enhance skills in PCB design and electronic circuit optimization</li>
-              </ul>
-            </div>
             <div className="flex flex-wrap gap-4">
               <Button className="primary-gradient" size="lg" asChild>
                 <a href="#contact">Contact Me</a>
