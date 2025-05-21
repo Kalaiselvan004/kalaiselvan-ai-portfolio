@@ -13,13 +13,22 @@ export default function HeroSection() {
       <div className="container mx-auto z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1 animate-fade-in">
-            <p className="text-primary font-semibold mb-2">Innovative Electronics Engineer</p>
+            <p className="text-primary font-semibold mb-2">Electronics Engineer & Embedded Systems Specialist</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
               Hi, I'm <span className="text-gradient">Kalaiselvan S</span>
             </h1>
             <p className="text-lg md:text-xl mb-6 text-muted-foreground">
-              Designing lovable AI & embedded solutions that make life easier.
+              Creating innovative embedded solutions at the intersection of hardware and software.
             </p>
+            <div className="flex flex-col space-y-4 mb-6">
+              <h3 className="text-lg font-medium">Curriculum Objectives</h3>
+              <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                <li>Advance expertise in microcontroller programming and embedded system design</li>
+                <li>Develop professional competency in IoT device architecture and connectivity</li>
+                <li>Master signal processing techniques and their applications in electronics</li>
+                <li>Enhance skills in PCB design and electronic circuit optimization</li>
+              </ul>
+            </div>
             <div className="flex flex-wrap gap-4">
               <Button className="primary-gradient" size="lg" asChild>
                 <a href="#contact">Contact Me</a>
