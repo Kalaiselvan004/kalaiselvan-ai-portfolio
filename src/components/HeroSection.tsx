@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export default function HeroSection() {
   return (
@@ -33,16 +34,18 @@ export default function HeroSection() {
           <div className="order-1 md:order-2 flex justify-center animate-fade-in">
             <div className={cn(
               "relative w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden",
-              "border-4 border-white dark:border-gray-800 shadow-xl",
-              "bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900"
+              "border-4 border-white dark:border-gray-800 shadow-xl"
             )}>
-              {/* Profile image placeholder - replace with actual image URL when available */}
-              <div className="flex items-center justify-center h-full text-primary">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-24 w-24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
-                  <circle cx="12" cy="8" r="5"></circle>
-                  <path d="M20 21v-2a7 7 0 0 0-14 0v2"></path>
-                </svg>
-              </div>
+              <Avatar className="w-full h-full">
+                <AvatarImage 
+                  src="/lovable-uploads/bdf71568-f97c-4f5b-8cda-51876e01862b.png" 
+                  alt="Kalaiselvan S profile picture" 
+                  className="object-cover w-full h-full"
+                />
+                <AvatarFallback className="text-primary text-4xl bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900">
+                  KS
+                </AvatarFallback>
+              </Avatar>
             </div>
           </div>
         </div>
