@@ -47,15 +47,39 @@ export default function AboutSection() {
 
             <div className="mt-8">
               <h3 className="text-2xl font-semibold mb-6">Education</h3>
-              <Card className={cn(
-                "transition-all hover:shadow-md relative overflow-hidden",
-                "border-l-4 border-primary"
-              )}>
-                <CardContent className="p-6">
-                  <h4 className="text-xl font-medium">Bachelor of Engineering in Electronics and Communication</h4>
-                  <p className="text-muted-foreground">SNS College of Engineering</p>
-                </CardContent>
-              </Card>
+              <div className="space-y-4">
+                <Card className={cn(
+                  "transition-all hover:shadow-md relative overflow-hidden",
+                  "border-l-4 border-primary"
+                )}>
+                  <CardContent className="p-6">
+                    <h4 className="text-xl font-medium">Bachelor of Engineering in Electronics and Communication</h4>
+                    <p className="text-muted-foreground">SNS College of Engineering</p>
+                  </CardContent>
+                </Card>
+                
+                <Card className={cn(
+                  "transition-all hover:shadow-md relative overflow-hidden",
+                  "border-l-4 border-theme-blue"
+                )}>
+                  <CardContent className="p-6">
+                    <h4 className="text-xl font-medium">Higher Secondary Certificate (HSC)</h4>
+                    <p className="text-muted-foreground">Sri Krishna Matric Hr.Sec.School</p>
+                    <p className="text-sm text-muted-foreground mt-1">Percentage: 65.8%</p>
+                  </CardContent>
+                </Card>
+                
+                <Card className={cn(
+                  "transition-all hover:shadow-md relative overflow-hidden",
+                  "border-l-4 border-theme-purple"
+                )}>
+                  <CardContent className="p-6">
+                    <h4 className="text-xl font-medium">Secondary School Leaving Certificate (SSLC)</h4>
+                    <p className="text-muted-foreground">Sri Krishna Matric Hr.Sec.School</p>
+                    <p className="text-sm text-muted-foreground mt-1">Percentage: 55.2%</p>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
